@@ -34,9 +34,9 @@ public class ArrayPractice
 
         Console.WriteLine("Введите три любых слова:");
 
-        strings[idx++] = Console.ReadLine();
-        strings[idx++] = Console.ReadLine();
-        strings[idx] = Console.ReadLine();
+        strings[idx++] = Console.ReadLine()!;
+        strings[idx++] = Console.ReadLine()!;
+        strings[idx] = Console.ReadLine()!;
 
         Console.WriteLine($"{strings[idx--]} {strings[idx--]} {strings[idx]}");
 
