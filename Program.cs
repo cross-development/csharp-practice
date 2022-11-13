@@ -2,7 +2,8 @@
 // using Sources.Arrays;
 // using Sources.Cycles;
 // using Sources.Conditions;
-using Sources.Methods;
+// using Sources.Methods;
+using csharp_practice.Sources.ClassesPractice;
 
 namespace Practice;
 
@@ -14,6 +15,7 @@ public class Program
         // ArrayPractice.Run();
         // CyclesPractice.Run();
         // ConditionsPractice.Run();
-        MethodsPractice.Run();
+        // MethodsPractice.Run();
+        Classes.Run();
     }
 }
