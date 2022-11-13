@@ -30,21 +30,21 @@ namespace csharp_practice.Sources.ClassesPractice
 
             //* WITH CONSTRUCTOR
 
-            // Doctor doctor2 = new Doctor("Ivan", "Ivanovich", "Ivanov", "Terapevt");
-            // doctor2.CabinetNumber = 15;
+            Doctor doctor2 = new Doctor("Ivan", "Ivanovich", "Ivanov", "Terapevt");
+            doctor2.CabinetNumber = 15;
 
-            // doctor2.GoToWork();
-            // doctor2.PrintBio();
+            doctor2.GoToWork();
+            doctor2.PrintBio();
 
-            // Console.WriteLine(Doctor.Address);
+            Console.WriteLine(Doctor.Address);
 
-            // Doctor.HowManyDoctors();
+            Doctor.HowManyDoctors();
 
-            // Service.SendEmail("example@test.ua");
+            Service.SendEmail("example@test.ua");
 
-            // Console.WriteLine(
-            //     $"Отправляйте свои пожелания и предложения на адрес: {Service.SUPPORT_EMAIL}"
-            // );
+            Console.WriteLine(
+                $"Отправляйте свои пожелания и предложения на адрес: {Service.SUPPORT_EMAIL}"
+            );
 
             //* HW
 
