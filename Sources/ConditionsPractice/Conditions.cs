@@ -1,4 +1,4 @@
-namespace Practice.Conditions;
+namespace Sources.Conditions;
 
 public class ConditionsPractice
 {

@@ -1,4 +1,4 @@
-namespace Practice.Arrays;
+namespace Sources.Arrays;
 
 public class ArrayPractice
 {

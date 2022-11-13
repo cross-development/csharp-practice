@@ -1,6 +1,6 @@
-namespace Practice.Variables;
+namespace Sources.Variables;
 
-public static class VariablesPractice
+public class VariablesPractice
 {
     public static void Run()
     {
@@ -62,7 +62,6 @@ public static class VariablesPractice
         double p = Math.Pow(4, 3); // возведение в степень
         double q = Math.Max(100, 200); // максимальное значение
 
-
         // HW
         int daysOfWeek = 7;
         int weeksOfYear = 4 * 12;
@@ -92,7 +91,6 @@ public static class VariablesPractice
 
         int r = 25;
         string f = r.ToString();
-
 
         string someText = "123";
         int someNumber = int.Parse(someText);

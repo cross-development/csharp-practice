@@ -1,4 +1,4 @@
-namespace Practice.Cycles;
+namespace Sources.Cycles;
 
 public class CyclesPractice
 {

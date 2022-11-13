@@ -1,7 +1,8 @@
-﻿// using Practice.Variables;
-// using Practice.Arrays;
-// using Practice.Cycles;
-using Practice.Conditions;
+﻿// using Sources.Variables;
+// using Sources.Arrays;
+// using Sources.Cycles;
+// using Sources.Conditions;
+using Sources.Methods;
 
 namespace Practice;
 
@@ -12,6 +13,7 @@ public class Program
         // VariablesPractice.Run();
         // ArrayPractice.Run();
         // CyclesPractice.Run();
-        ConditionsPractice.Run();
+        // ConditionsPractice.Run();
+        MethodsPractice.Run();
     }
 }
