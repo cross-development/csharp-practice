@@ -12,9 +12,11 @@ namespace csharp_practice.Sources.Inheritance
             this.TrunkLength = trunkLength;
         }
 
-        public void Feed()
+        public override void Feed()
         {
-            Console.WriteLine("Вы покормили слона. Слон доволен.");
+            base.Feed();
+            
+            Console.WriteLine("Слона кормим бананами.");
         }
     }
 }

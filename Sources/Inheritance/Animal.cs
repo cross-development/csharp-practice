@@ -12,5 +12,10 @@ namespace csharp_practice.Sources.Inheritance
             this.Age = age;
             this.Weight = weight;
         }
+
+        public virtual void Feed()
+        {
+            Console.WriteLine("Вы покормили животное.");
+        }
     }
 }

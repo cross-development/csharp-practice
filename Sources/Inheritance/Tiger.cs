@@ -9,5 +9,13 @@ namespace csharp_practice.Sources.Inheritance
         {
             this.TailLength = tailLength;
         }
+
+        public override void Feed()
+        {
+            // get logic from parent method
+            base.Feed();
+
+            Console.WriteLine("Тигра кормим мясом.");
+        }
     }
 }
