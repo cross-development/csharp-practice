@@ -1,6 +1,8 @@
 namespace csharp_practice.Sources.Inheritance
 {
-    public class Elephant : Animal
+    // классическое наследование (отношение "является")
+    // запечатанный класс (нет возможности наследоваться от него)
+    public sealed class Elephant : Animal
     {
         public int TrunkLength { get; set; }
 

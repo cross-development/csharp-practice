@@ -1,5 +1,6 @@
 namespace csharp_practice.Sources.Inheritance
 {
+    // классическое наследование (отношение "является")
     public class Tiger : Animal
     {
         public int TailLength { get; set; }

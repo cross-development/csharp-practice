@@ -8,6 +8,12 @@ namespace csharp_practice.Sources.Inheritance
 
             Elephant elephant = new Elephant("Elephant", 22, 300, 150);
             elephant.Feed();
+
+            Office office = new Office();
+            office.Number = 20;
+            office.Comp.SerialNumber = 111;
+
+            office.Comp.TurnOn();
         }
     }
 }
