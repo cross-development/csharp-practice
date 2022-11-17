@@ -18,5 +18,10 @@ namespace csharp_practice.Sources.Inheritance
             
             Console.WriteLine("Слона кормим бананами.");
         }
+
+        public override void Move()
+        {
+            Console.WriteLine("Тигр начинает бежать.");
+        }
     }
 }
