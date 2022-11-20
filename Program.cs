@@ -5,8 +5,9 @@
 // using Sources.Methods;
 // using csharp_practice.Sources.ClassesPractice;
 // using csharp_practice.Sources.Inheritance;
-using csharp_practice.Sources.DelegatePractice;
-using csharp_practice.Sources.DirectoryPractice;
+// using csharp_practice.Sources.DelegatePractice;
+// using csharp_practice.Sources.DirectoryPractice;
+using csharp_practice.Sources.EventsPractice;
 
 namespace Practice
 {
@@ -22,7 +23,7 @@ namespace Practice
             // Classes.Run();
             // ClassicInheritance.Run();
 
-            // =====================================
+            // ====================== DIRECTORIES and FILES ====================
 
             // DirectoryService.GetListOfDirectories("DirectoryPractice");
             // DirectoryService.GetListOfFiles("Inheritance");
@@ -42,10 +43,15 @@ namespace Practice
 
             // DirectoryService.ReadFile();
 
-            ReadAndWrite.Run();
+            // ReadAndWrite.Run();
 
-            // =====================================
+            // ====================== DELEGATES ====================
             // Delegates.Run();
+
+            // ====================== EVENTS =======================
+            EventsBasic eventsBasic = new EventsBasic();
+
+            eventsBasic.Run();
         }
     }
 }
