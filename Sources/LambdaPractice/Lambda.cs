@@ -39,7 +39,12 @@ namespace csharp_practice.Sources.LambdaPractice
             // );
             MessageHandlerMethod(() => Console.WriteLine("Это анонимное лямбда-выражение"));
 
-            Lion lion = new Lion();
+            Lion lion = new Lion("Mufasa");
+            Employee employee = new Employee();
+
+            // lion.IsHungry += employee.Feed;
+            lion.IsHungry += (lion) => employee.Feed(lion);
+            lion.Walk();
 
             // lion.IsHungry += delegate()
             // {
@@ -53,9 +58,10 @@ namespace csharp_practice.Sources.LambdaPractice
             //     Console.WriteLine("Лев голоден.");
             //     Console.WriteLine("Это анонимное лямбда-выражение");
             // };
-            lion.IsHungry += () => Console.WriteLine("Лев голоден. Это анонимное лямбда-выражение");
-
-            lion.Walk();
+            //
+            // OR
+            //
+            // lion.IsHungry += () => Console.WriteLine("Лев голоден. Это анонимное лямбда-выражение");
         }
 
         public void PrintMessage()
