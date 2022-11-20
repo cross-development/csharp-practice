@@ -7,7 +7,9 @@
 // using csharp_practice.Sources.Inheritance;
 // using csharp_practice.Sources.DelegatePractice;
 // using csharp_practice.Sources.DirectoryPractice;
-using csharp_practice.Sources.EventsPractice;
+// using csharp_practice.Sources.EventsPractice;
+
+using csharp_practice.Sources.LambdaPractice;
 
 namespace Practice
 {
@@ -49,9 +51,12 @@ namespace Practice
             // Delegates.Run();
 
             // ====================== EVENTS =======================
-            EventsBasic eventsBasic = new EventsBasic();
+            // EventsBasic eventsBasic = new EventsBasic();
 
-            eventsBasic.Run();
+            // eventsBasic.Run();
+
+            // ====================== LAMBDA =======================
+            new Lambda().Run();
         }
     }
 }
