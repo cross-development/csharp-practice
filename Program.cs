@@ -4,7 +4,9 @@
 // using Sources.Conditions;
 // using Sources.Methods;
 // using csharp_practice.Sources.ClassesPractice;
-using csharp_practice.Sources.Inheritance;
+// using csharp_practice.Sources.Inheritance;
+using csharp_practice.Sources.DelegatePractice;
+using csharp_practice.Sources.DirectoryPractice;
 
 namespace Practice
 {
@@ -18,7 +20,32 @@ namespace Practice
             // ConditionsPractice.Run();
             // MethodsPractice.Run();
             // Classes.Run();
-            ClassicInheritance.Run();
+            // ClassicInheritance.Run();
+
+            // =====================================
+
+            // DirectoryService.GetListOfDirectories("DirectoryPractice");
+            // DirectoryService.GetListOfFiles("Inheritance");
+            // DirectoryService.GetAllFilesInAllFolders("DirectoryPractice", "txt");
+
+            // var salesFiles = DirectoryService.FindFiles("Sources/DirectoryPractice", null);
+
+            // foreach (string file in salesFiles)
+            // {
+            //     Console.WriteLine($"File - {file}");
+            // }
+
+            // PathService.GetFileInfo();
+
+            // DirectoryService.CreateDirectory("NewFolder");
+            // DirectoryService.CreateFile("greeting.txt", "Hello World!");
+
+            // DirectoryService.ReadFile();
+
+            ReadAndWrite.Run();
+
+            // =====================================
+            // Delegates.Run();
         }
     }
 }
