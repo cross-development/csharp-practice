@@ -15,7 +15,11 @@ namespace csharp_practice.Sources.Inheritance
             tiger.Feed();
             elephant.Feed();
 
-            Animal[] animals = {new Tiger("Tiger", 12, 50, 20), new Elephant("Elephant", 22, 300, 150)};
+            Animal[] animals =
+            {
+                new Tiger("Tiger", 12, 50, 20),
+                new Elephant("Elephant", 22, 300, 150)
+            };
 
             foreach (Animal animal in animals)
             {

@@ -6,14 +6,15 @@ namespace csharp_practice.Sources.GenericsPractice
         public A AccountNumber { get; set; }
     }
 
-    public class PhoneNumber {
+    public class PhoneNumber
+    {
         public string Country { get; set; }
-        
+
         public int Code { get; set; }
-        
+
         public string Number { get; set; }
-        
-        public override string ToString( )
+
+        public override string ToString()
         {
             return $"Country: {this.Country}, Code: {this.Code}, Number: {this.Number}";
         }

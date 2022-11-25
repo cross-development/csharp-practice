@@ -1,24 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.Collections;
-
 namespace csharp_practice.Sources.CollectionsPractice
 {
     public class Lists
     {
-        public static void Run( )
+        public static void Run()
         {
-            
-           List<bool> listBool = new List<bool>();
-           list.Add(true);
-           list.Add(false);
-           // list.Add(1); // error
-            
+            List<bool> listBool = new List<bool>();
+            listBool.Add(true);
+            listBool.Add(false);
+            // list.Add(1); // error
+
             List<int> intList = new List<int>();
             intList.Add(1);
             intList.Add(2);
             // intList.Add(true); // error
-            
+
             List<int> list = new List<int>();
             Random rnd = new Random();
 
@@ -33,7 +28,7 @@ namespace csharp_practice.Sources.CollectionsPractice
                 Console.WriteLine($"{item} ");
             }
             Console.WriteLine();
-            
+
             list.RemoveAt(0);
             list.RemoveAt(list.Count - 1);
 
@@ -44,6 +39,5 @@ namespace csharp_practice.Sources.CollectionsPractice
             }
             Console.WriteLine();
         }
-
     }
 }

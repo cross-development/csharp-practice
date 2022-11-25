@@ -1,13 +1,12 @@
-using System.Collections.Generic;
 namespace csharp_practice.Sources.CollectionsPractice
 {
     public class Dictionaries
     {
-        public static void Run( )
+        public static void Run()
         {
             Dictionary<string, string> phones = new Dictionary<string, string>();
-            phone.Add("Ivanov", "111-111-111");
-            phone.Add("Petrov", "222-222-222");
+            phones.Add("Ivanov", "111-111-111");
+            phones.Add("Petrov", "222-222-222");
 
             Console.WriteLine($"Ivanov's phone number: {phones["Ivanov"]}");
 

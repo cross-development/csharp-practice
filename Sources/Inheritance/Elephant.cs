@@ -15,7 +15,7 @@ namespace csharp_practice.Sources.Inheritance
         public override void Feed()
         {
             base.Feed();
-            
+
             Console.WriteLine("Слона кормим бананами.");
         }
 

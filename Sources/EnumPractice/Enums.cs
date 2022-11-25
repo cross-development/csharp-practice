@@ -2,13 +2,13 @@ namespace csharp_practice.Sources.EnumPractice
 {
     public class Enums
     {
-        public static void Run( )
+        public static void Run()
         {
             Seasons season = Seasons.Autumn;
             DaysOfWeek day = DaysOfWeek.Friday;
 
             Seasons[] arr1 = { Seasons.Autumn, Seasons.Summer };
-            
+
             List<DaysOfWeek> list = new List<DaysOfWeek>();
             list.Add(day);
 
@@ -28,7 +28,7 @@ namespace csharp_practice.Sources.EnumPractice
                     break;
                 case DaysOfWeek.Sunday:
                     Console.WriteLine("Сегодня выходной");
-                    break;    
+                    break;
                 default:
                     Console.WriteLine("Сегодня рабочий день");
                     break;

@@ -15,7 +15,7 @@ namespace csharp_practice.Sources.Inheritance
 
         public int Number { get; set; }
         public Computer Comp { get; set; }
-        
+
         public Office()
         {
             this.Comp = new Computer();

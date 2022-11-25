@@ -2,13 +2,15 @@ namespace csharp_practice.Sources.StructurePractice
 {
     public class Structures
     {
-        public static void Run() {
+        public static void Run()
+        {
             BankAccount ba = new BankAccount(1001, 10);
             ba.Withdraw(10);
         }
     }
 
-    public struct BankAccount {
+    public struct BankAccount
+    {
         private int accountNumber;
         private decimal money;
 
@@ -20,7 +22,8 @@ namespace csharp_practice.Sources.StructurePractice
 
         public void Withdraw(decimal amount)
         {
-            if(amount <= this.money) {
+            if (amount <= this.money)
+            {
                 money -= amount;
             }
         }
