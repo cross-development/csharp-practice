@@ -22,14 +22,14 @@ public class MethodsPractice
         Console.WriteLine($"Analyze result: {analyzeResult}");
     }
 
-    private static void AddTwoNumbers(int a, int b)
+    public static void AddTwoNumbers(int a, int b)
     {
         int result = a + b;
 
         Console.WriteLine($"{a} + {b} = {result}");
     }
 
-    private static int DivideTwoNumbers(int a, int b)
+    public static int DivideTwoNumbers(int a, int b)
     {
         int result = a / b;
 
@@ -38,7 +38,7 @@ public class MethodsPractice
         return result;
     }
 
-    private static string ConcatTwoStrings(string str1, string srt2)
+    public static string ConcatTwoStrings(string str1, string srt2)
     {
         string resultStr = str1 + srt2;
 
@@ -47,7 +47,7 @@ public class MethodsPractice
         return resultStr;
     }
 
-    private static int GetMaxValue(int[] arr)
+    public static int GetMaxValue(int[] arr)
     {
         // Array.Sort<int>(arr);
         // return arr[arr.Length - 1];
@@ -56,9 +56,9 @@ public class MethodsPractice
     }
 
     // HW
-    private static int GetLettersCount(string str) => str.Length;
+    public static int GetLettersCount(string str) => str.Length;
 
-    private static string AnalyzeNumber(int num)
+    public static string AnalyzeNumber(int num)
     {
         if (num > 0)
             return "Число больше нуля";
