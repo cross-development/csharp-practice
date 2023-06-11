@@ -1,4 +1,5 @@
 ﻿using Basic2.Sources.BasicPractice;
+using Basic2.Sources.ControlFlow;
 
 namespace Basic2;
 
@@ -7,6 +8,15 @@ public static class Program
     static void Main(string[] args)
     {
         BasicPractice();
+        ControlFlow();
+    }
+
+    private static void ControlFlow()
+    {
+        new Conditional().Run();
+        new Cycles().Run();
+        new SwitchCase().Run();
+        new HomeWorkCf().Run();
     }
 
     private static void BasicPractice()
@@ -20,6 +30,6 @@ public static class Program
         new Parsing().Run();
         new ArrayBasic().Run();
         new DateTimes().Run();
-        new HomeWork().Run();
+        new HomeWorkBp().Run();
     }
 }

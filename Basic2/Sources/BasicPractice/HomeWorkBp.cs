@@ -1,6 +1,6 @@
 namespace Basic2.Sources.BasicPractice;
 
-public class HomeWork
+public class HomeWorkBp
 {
     public void Run()
     {
