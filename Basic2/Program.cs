@@ -1,4 +1,5 @@
-﻿using Basic2.Sources.BasicPractice;
+﻿using Basic2.Sources.ArrayAndCollections;
+using Basic2.Sources.BasicPractice;
 using Basic2.Sources.ControlFlow;
 
 namespace Basic2;
@@ -9,6 +10,19 @@ public static class Program
     {
         BasicPractice();
         ControlFlow();
+        Arrays();
+    }
+
+    private static void Arrays()
+    {
+        new Arrays().Run();
+        new Lists().Run();
+        new Dictionaries().Run();
+        new Queues().Run();
+        new Stacks().Run();
+        new JaggedArray().Run();
+        new MultiArray().Run();
+        new HomeWorkAc().Run();
     }
 
     private static void ControlFlow()
