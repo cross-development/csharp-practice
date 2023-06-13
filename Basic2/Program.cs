@@ -1,6 +1,7 @@
 ﻿using Basic2.Sources.ArrayAndCollections;
 using Basic2.Sources.BasicPractice;
 using Basic2.Sources.ControlFlow;
+using Basic2.Sources.OopPractice;
 
 namespace Basic2;
 
@@ -11,6 +12,13 @@ public static class Program
         BasicPractice();
         ControlFlow();
         Arrays();
+        Oop();
+    }
+
+    private static void Oop()
+    {
+        new FirstClass().Run();
+        new MethodOverloading().Run();
     }
 
     private static void Arrays()
