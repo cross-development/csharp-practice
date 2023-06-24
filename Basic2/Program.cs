@@ -19,6 +19,8 @@ public static class Program
     {
         new FirstClass().Run();
         new MethodOverloading().Run();
+        new MethodsAndArgs().Run();
+        StaticMethods.Run();
     }
 
     private static void Arrays()
