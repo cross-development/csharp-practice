@@ -21,6 +21,8 @@ public static class Program
         new MethodOverloading().Run();
         new MethodsAndArgs().Run();
         StaticMethods.Run();
+        new OptionalParams().Run();
+        new ValueAndRefTypes().Run();
     }
 
     private static void Arrays()
