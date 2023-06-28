@@ -23,6 +23,9 @@ public static class Program
         StaticMethods.Run();
         new OptionalParams().Run();
         new ValueAndRefTypes().Run();
+        new Constructors().Run();
+        new Inheritance().Run();
+        new Polymorphism().Run();
     }
 
     private static void Arrays()
