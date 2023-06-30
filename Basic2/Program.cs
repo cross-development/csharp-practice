@@ -26,6 +26,7 @@ public static class Program
         new Constructors().Run();
         new Inheritance().Run();
         new Polymorphism().Run();
+        new Interfaces().Run();
     }
 
     private static void Arrays()
