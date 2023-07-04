@@ -43,7 +43,7 @@ internal class Triangle : Shape
         this.ab = ab;
         this.bc = bc;
         this.ac = ac;
-        
+
         Console.WriteLine("Triangle created");
     }
 

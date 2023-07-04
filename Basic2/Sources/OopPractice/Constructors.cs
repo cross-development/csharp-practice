@@ -4,7 +4,7 @@ public class Constructors
 {
     public void Run()
     {
-        var character = new CharacterOne("Elf");
+        var character = new CharacterOne(Race.Elf);
         Console.WriteLine(character.Race);
         Console.WriteLine(character.Armor);
     }
@@ -50,22 +50,22 @@ internal class CharacterOne
     // private readonly int speed = 10;
     private readonly int speed;
     public int Health { get; set; } = 100;
-    public string Race { get; private set; }
+    public Race Race { get; private set; }
     public int Armor { get; private set; }
 
-    public CharacterOne(string race)
+    public CharacterOne(Race race)
     {
         Race = race;
-        Armor = 30;
+        Armor = (int)race;
     }
 
-    public CharacterOne(string race, int armor)
+    public CharacterOne(Race race, int armor)
     {
         Race = race;
         Armor = armor;
     }
 
-    public CharacterOne(string race, int armor, int speed)
+    public CharacterOne(Race race, int armor, int speed)
     {
         Race = race;
         Armor = armor;
