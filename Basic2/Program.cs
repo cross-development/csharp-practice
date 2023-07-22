@@ -1,6 +1,7 @@
 ﻿using Basic2.Sources.ArrayAndCollections;
 using Basic2.Sources.BasicPractice;
 using Basic2.Sources.ControlFlow;
+using Basic2.Sources.DelegatesEvents;
 using Basic2.Sources.OopPractice;
 
 namespace Basic2;
@@ -13,6 +14,11 @@ public static class Program
         ControlFlow();
         Arrays();
         Oop();
+    }
+
+    private static void DelegatesAndEvents()
+    {
+        new DelegateEvents().Run();
     }
 
     private static void Oop()
